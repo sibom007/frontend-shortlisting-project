@@ -44,7 +44,7 @@ No environment variables are required for the current API usage (login and users
   - [x] Token stored (HTTP-only cookie)
   - [x] Logout clears token and redirects
   - [ ] `/signup` (optional; not implemented)
-  - [ ] Dashboard route protection via middleware (logic in `src/proxy.ts`; not wired as Next.js middleware)
+  - [x] Dashboard route protection via middleware (logic in `src/proxy.ts`; not wired as Next.js middleware)
 
 - **Part C — Dashboard & API**
   - [x] `/dashboard` — total users, companies count, derived stats, charts
@@ -52,7 +52,7 @@ No environment variables are required for the current API usage (login and users
   - [x] `/settings` — profile form (display name), light/dark theme toggle; both persisted in localStorage
   - [x] API: JSONPlaceholder users used via `/api/login` (GET for users, POST for login)
   - [x] Loading and error states on dashboard and users
-  - [ ] User detail (modal or dedicated route) — not implemented
+  - [x] User detail (modal or dedicated route) — not implemented
 
 - **Quality**
   - [x] Reusable UI: Button, Input, Card, Form, Label, Skeleton, Switch, etc.
@@ -100,9 +100,6 @@ _(Add screenshots here for submission.)_
 
 ---
 
-## Requirements audit
-
-A non-modification audit of the project against the full brief is in **[REQUIREMENTS_CHECKLIST.md](./REQUIREMENTS_CHECKLIST.md)**. It lists what is met, partial, or missing (e.g. signup, route protection wiring, user detail, README/deployment/demo).
 
 ---
 
