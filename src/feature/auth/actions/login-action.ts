@@ -5,14 +5,17 @@ import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 
 export async function loginAction(payload: LoginPayload) {
-  const res = await fetch(`http://localhost:3000/api/login`, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
+  const res = await fetch(
+    `https://frontend-shortlisting-project.vercel.app/api/login`,
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(payload),
+      cache: "no-store",
     },
-    body: JSON.stringify(payload),
-    cache: "no-store",
-  });
+  );
 
   const data: LoginResponse = await res.json();
 
