@@ -4,9 +4,12 @@ import { User, UsersResponse } from "@/types";
 import { useQuery } from "@tanstack/react-query";
 
 const fetchUser = async (id: number): Promise<User | null> => {
-  const res = await fetch(`/api/users?id=${id}`, {
-    method: "GET",
-  });
+  const res = await fetch(
+    `https://frontend-shortlisting-project.vercel.app/api/users?id=${id}`,
+    {
+      method: "GET",
+    },
+  );
 
   const data: UsersResponse = await res.json();
 

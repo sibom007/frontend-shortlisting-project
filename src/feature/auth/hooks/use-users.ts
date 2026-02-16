@@ -14,9 +14,12 @@ const fetchUsers = async (search?: string): Promise<UsersResponse> => {
     params.append("search", search);
   }
 
-  const res = await fetch(`/api/login?${params.toString()}`, {
-    method: "GET",
-  });
+  const res = await fetch(
+    `https://frontend-shortlisting-project.vercel.app/api/login?${params.toString()}`,
+    {
+      method: "GET",
+    },
+  );
 
   const data = await res.json();
 
