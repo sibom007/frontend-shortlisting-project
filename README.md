@@ -105,5 +105,5 @@ _(Add screenshots here for submission.)_
 
 ## Demo & deployment
 
-- **Live deployment:** _([Add Vercel/Netlify URL here when deployed.](https://frontend-shortlisting-project.vercel.app))_
-- **Screen recording:** _([Add link to ~10 min demo when available.](https://drive.google.com/file/d/1SZpQpjfMtRxTXYyyJGO6cbiK6yfSusrT/view?usp=sharing))_
+- **Live deployment:** _([Live link](https://frontend-shortlisting-project.vercel.app))_
+- **Screen recording:** _([Video link](https://drive.google.com/file/d/1SZpQpjfMtRxTXYyyJGO6cbiK6yfSusrT/view?usp=sharing))_
